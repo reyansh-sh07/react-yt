@@ -16,19 +16,20 @@ const [num, setNum] = useState(0)
     setNum(num-1)
   }
   function jump5Num() {
-    setNum(num+5)
+    setNum(prev => prev + 5)    
+    // Here prev can be replaced by any variable ....the jsx will auto- sets the previous value into it. ..
   }
   function jumpBack5Num() {
-    setNum(num-5)
+    setNum(oldValuesssssss => oldValuesssssss -5 )
   }
 
   return (
     <div>
       <h1>{num}</h1>
-      <button onClick={jump5Num}>Increase by 5</button>
-      <button onClick={increaseNum}>Increase</button>
       <button onClick={decreaseNum}>Decrease</button>
       <button onClick={jumpBack5Num}>Decrease by 5</button>
+      <button onClick={increaseNum}>Increase</button>
+      <button onClick={jump5Num}>Increase by 5</button>
     </div>
   )
 }
