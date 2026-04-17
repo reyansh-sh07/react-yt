@@ -1,0 +1,13 @@
+.box{
+    background-color: lightblue;
+    color: black;
+    border: 2px solid black;
+    border-radius:  6px;
+    margin: 20px;
+    padding: 10px;
+}
+h1 , p {
+    padding: 10px;
+    margin : 20px;
+    
+}

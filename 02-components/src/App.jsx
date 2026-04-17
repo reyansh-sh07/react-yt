@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './components/Card'
 import Navbar from './components/Navbar'
+import Box from './components/box'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Card />
       <Card />
+      <Box />
     </div>
   )
 }
