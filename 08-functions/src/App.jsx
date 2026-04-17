@@ -10,6 +10,7 @@ const App = () => {
   function inputChanging(val){
     console.log(val);
   }
+
   return (
     <div>
       <button onClick={btnClicked} onMouseEnter={mouseEntered}>
@@ -26,8 +27,8 @@ const App = () => {
 
 {/* Below is an example of how we can set a function to an event handler and pass it a parameter. We can also use an arrow function instead of the normal function. */}
       <input type = "text" placeholder='Enter somethng'
-      onChange={function(e){
-        inputChanging(e.target.value);
+      onChange={function(Vallll){
+        inputChanging(Vallll.target.value);
       }}>
       </input>
     </div>
