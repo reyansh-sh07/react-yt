@@ -13,7 +13,11 @@ const App = () => {
 
   console.log(usera);
   return (
-    <div>App</div>
+    <div>
+      <h1> user = {user.username}</h1>
+      <h3> age = {user.age}</h3>
+      <h2> city = {user.city}</h2>
+    </div>
   )
 }
 
