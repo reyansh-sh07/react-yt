@@ -9,13 +9,14 @@ const App = () => {
 
   const btnClicked2 = () => {
     const newArray = [...arr]
+    // or wwe can use it as const newArray = [...arr,40]
     newArray.push(40)
     setArr(newArray)
   }
 
   const btnClicked = () => {
     setNum(prev => (prev + 1))     
-// Dont get confused....here, prev is assigned to an arrow function
+// Dont get confused....here, prev is assigned to an arrow function and it can be named anythng....it will hold the previous value..
   }
 
   return (
