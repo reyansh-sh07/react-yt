@@ -6,7 +6,7 @@ const App = () => {
   // Following is an example as similar to the one i have learned in JS.
   // async function getDataaa(){
     //   const responsee = await fetch ("API ka link ayega  idhr...")
-    // const dataaa = await reponsee.json()
+    //   const dataaa = await reponsee.json()
     //   console.log (reponsee);
     //   console.log (dataaa);
   // }
