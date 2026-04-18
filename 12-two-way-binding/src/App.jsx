@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
+
 const App = () => {
 
   const [title, setTitle] = useState('')
@@ -14,15 +15,13 @@ const App = () => {
 
   return (
     <div>
-      <form onSubmit={(e) => {
-        submitHandler(e)
-      }}>
+      <form onSubmit={submitHandler()}>
         <input 
         type="text" 
         placeholder='Enter your name' 
         value={title}
         onChange={(e)=>{
-          setTitle(e.target.value);
+        setTitle(e.target.value);
         }}
         />
         <button>Submit</button>
